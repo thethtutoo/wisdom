@@ -33,7 +33,23 @@
 
   <hr />
 <br class="clear" />
-<%= yield %>
 
+<div class="container">
+
+  <%= yield %>
+
+</div>
+
+<div class="footer">
+    <div class="container">
+      <div class="col-xs-6">
+        <%= link_to "Oh, I need more!", "#", :class=> 'next-quote' %>
+      </div>
+      <div class="col-xs-6 footer-blurb">
+        Humbly hacked in Yangon, by <a href="https://www.facebook.com/thethtut.oo">Thet  &amp; May</a><br />
+        Want to help me build your own app? - <a href="https://www.facebook.com/thethtut.oo">Find me here</a>
+      </div>
+    </div>
+</div>
 </body>
 </html>
